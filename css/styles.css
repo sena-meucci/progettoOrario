@@ -144,3 +144,23 @@ a
 .spazio {
     padding: 10px;
 }
+
+#btnDark {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  font-size: 15px;
+  padding: 5px;
+  margin-bottom: 2%;
+  border-radius: 7px;
+  text-align: center;
+  border: 0px;
+  background-color: rgb(98, 187, 247);
+  box-sizing: border-box;
+  border: 2px solid transparent;
+}
+
+#btnDark:hover {
+  border: 2px solid blue;
+}
+

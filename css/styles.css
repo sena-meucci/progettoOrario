@@ -144,3 +144,27 @@ a
 .spazio {
     padding: 10px;
 }
+
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .contenitore {
+  background-color: #1e1e1e;
+}
+
+.dark-mode table,
+.dark-mode td {
+  color: white;
+  border-color: white;
+}
+
+.dark-mode a {
+  color: white;
+}
+
+.dark-mode .intestazione {
+  color: white;
+}

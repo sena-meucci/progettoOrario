@@ -144,3 +144,20 @@ a
 .spazio {
     padding: 10px;
 }
+
+
+.darkmodetext {
+    color: white !important;
+}
+
+.darkmodebg {
+    background-color: rgb(18, 18, 18) !important;
+}
+
+.darkmodetable td {
+    border: 2px solid white !important;
+}
+
+table.darkmodetable {
+    border: 2px solid white !important;
+}

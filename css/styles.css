@@ -144,3 +144,75 @@ a
 .spazio {
     padding: 10px;
 }
+
+
+        body{
+            transition: 0.4s;
+        }
+
+  
+
+        .light-mode{
+            background-color: white;
+            color: black;
+        }
+
+        .light-mode table{
+            background-color: white;
+            color: black;
+        }
+
+      
+
+        .dark-mode{
+            background-color: #121212;
+            color: white;
+        }
+
+        .dark-mode table{
+            background-color: #1e1e1e;
+            color: white;
+        }
+
+        .dark-mode .table-bordered td,
+        .dark-mode .table-bordered th{
+            border-color: white;
+        }
+
+                body{
+            transition: 0.4s;
+        }
+
+
+
+        .light-mode{
+            background-color: white;
+            color: black;
+        }
+
+        /* DARK MODE */
+
+        .dark-mode{
+            background-color: #121212;
+            color: white;
+        }
+
+        .dark-mode table{
+            color: white;
+        }
+
+        .dark-mode td{
+            border: 1px solid white;
+        }
+
+        .dark-mode .intestazione{
+            background-color: #333;
+        }
+
+        /* Bottone */
+
+        #temaBtn{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }

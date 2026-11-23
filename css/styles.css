@@ -10,6 +10,14 @@ p
   text-align: center;
 }
 
+.highlight {
+  background-color: yellow;
+}
+
+.highlight * {
+  font-weight: bold;
+}
+
 .contenitore{
     text-align: center;
     border: 3px solid black;

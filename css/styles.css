@@ -9,6 +9,7 @@ body
   color: var(--text-color);
   text-transform: uppercase;
   margin: 0;
+  transition: 0.5s;
 }
 
 body.dark-mode
@@ -18,6 +19,7 @@ body.dark-mode
   --text-color: #f1f3f5;
   --border-color: #aeb8c4;
   --table-border-color: #8290a0;
+  transition: 0.5s;
 }
 
 p

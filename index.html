@@ -19,11 +19,11 @@
         <table>
           <tr class="intestazione">
             <td></td>
-            <td>Lunedi</td>
-            <td>Martedi</td>
-            <td>Mercoledi</td>
-            <td>Giovedi</td>
-            <td>Venerdi</td>
+            <td id="1">Lunedi</td>
+            <td id="2">Martedi</td>
+            <td id="3">Mercoledi</td>
+            <td id="4">Giovedi</td>
+            <td id="5">Venerdi</td>
           </tr>
           <tr>
             <td>1^ ora</td>
@@ -79,5 +79,8 @@
       <p> ELENCO PROFESSORI </p>
     
 </div>
+<script>
+  document.getElementById(new Date().getDay()).classList.add("highlight");
+</script>
 </body>
 </html>

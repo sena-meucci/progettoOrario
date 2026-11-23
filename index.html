@@ -10,6 +10,9 @@
 
 <body>
     <div class="contenitore">
+        <button class="toggle-tema" type="button" aria-pressed="false">
+            Dark mode
+        </button>
         <h1 class="titolo">
             Istituto Tecnico Industriale A. Meucci - Firenze
         </h1>
@@ -79,5 +82,16 @@
       <p> ELENCO PROFESSORI </p>
     
 </div>
+<script>
+    const toggleTema = document.querySelector(".toggle-tema");
+
+    toggleTema.addEventListener("click", () => {
+        const darkmode = document.body.classList.toggle("dark-mode");
+        toggleTema.setAttribute("aria-pressed", String(darkmode));
+        toggleTema.textContent = darkmode
+            ? "Light mode"
+            : "Dark mode";
+    });
+</script>
 </body>
 </html>
